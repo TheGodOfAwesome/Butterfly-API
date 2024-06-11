@@ -9,7 +9,8 @@ app.use(express.json())
 // routes
 
 app.get('/', (req, res) => {
-    res.send('Get API')
+    // res.send('Get API')
+    res.send('535.66')
 })
 
 app.get('/posts', async(req, res) => {
